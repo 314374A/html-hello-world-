@@ -1,0 +1,33 @@
+﻿/* Alap oldalbeállítások */
+body {
+	background-color: #f4f4f4; /* világosszürke háttér */
+	font-family: Arial, sans-serif; /* betűtípus */
+	color: #333; /* alap szövegszín (sötétszürke) */
+	text-align: center; /* minden középre igazítva */
+}
+
+/* Főcím (Hello World) */
+h1 {
+	color: darkblue; /* sötétkék szöveg */
+	font-size: 48px; /* betűméret */
+	text-transform: uppercase; /* nagybetűs írás */
+}
+
+/* Alcím (Image example) */
+h2 {
+	color: darkred; /* bordó szín */
+	font-size: 28px;
+}
+
+/* Bekezdés */
+p {
+	font-style: italic; /* dőlt betű */
+	color: green; /* zöld szöveg */
+}
+
+/* Kép formázás */
+img {
+	border: 3px solid black; /* fekete keret */
+	border-radius: 10px; /* lekerekített sarkok */
+	margin-top: 15px; /* térköz felül */
+}
