@@ -17,20 +17,21 @@
     <body>
         <h1>Hello World</h1>
 
-        <h2>Image examples</h2>
+        <h2>Image example</h2>
 
-        <!-- 1) Felirat a kép alatt -->
         <figure>
-            <img src="Image/img_002568.jpg" alt="Test image" width="300">
+            <!-- Egyetlen kép -->
+            <img src="Image/img_002568.jpg"
+                 alt="Test image"
+                 title="This is a tooltip when you hover"
+                 width="400">
+
+            <!-- Felirat a kép alatt -->
             <figcaption>This is a caption under the image.</figcaption>
         </figure>
 
-        <!-- 2) Tooltip, ha föléhúzod az egeret -->
-        <img src="Image/img_002568.jpg" alt="Test image" title="This is a tooltip when you hover" width="300">
-
-        <!-- 3) Szöveg külön bekezdésben a kép alatt -->
-        <img src="Image/img_002568.jpg" alt="Test image" width="300">
-        <p>This is plain text placed under the image.</p>
+        <!-- Külön szöveg a kép alatt -->
+        <p>This is plain text placed under the same image.</p>
 
     </body>
 </html>
